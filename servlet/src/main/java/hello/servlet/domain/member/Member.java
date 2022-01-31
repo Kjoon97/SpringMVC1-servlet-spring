@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter @Setter
 public class Member {
 
-    private Long id;   //repository에 저장하면 id가 발급될 것임.
+    private Long id;   //repository에 save()할때 아이디를 set 할거임. 멤버 생성할 때는 아이디 x
     private String username;
     private int age;
 
